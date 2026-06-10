@@ -1,0 +1,84 @@
+{
+  "sessions": [
+    {
+      "session_id": "aea4f8f3-731f-406e-83b8-42b21594f07c",
+      "product_name": "LotReady",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://v0-lotready-saas-app.vercel.app",
+      "started_at": "2026-06-10T07:39:55.237195+00:00",
+      "updated_at": "2026-06-10T07:43:07.077199+00:00",
+      "user_input": "https://www.ideabrowser.com/idea/adu-feasibility-checker-for-homeowners-b67111fa"
+    },
+    {
+      "session_id": "00531549-0bb6-49fc-8dcd-2e2a074e0f4f",
+      "product_name": "GainEngine",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://if-gainengine-00531549-ideaforge-projects.vercel.app",
+      "started_at": "2026-06-10T06:25:50.818832+00:00",
+      "updated_at": "2026-06-10T06:27:21.530083+00:00",
+      "user_input": "I want to gain five kilogram of muscle, build me a product that can help achieve my target"
+    },
+    {
+      "session_id": "33d229c1-4535-41e7-8f8b-c4c1632a2df1",
+      "product_name": "ADU Ready",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://if-adu-ready-33d229c1-ideaforge-projects.vercel.app",
+      "started_at": "2026-06-10T06:16:43.651597+00:00",
+      "updated_at": "2026-06-10T06:17:44.148692+00:00",
+      "user_input": "https://www.ideabrowser.com/idea/adu-feasibility-checker-for-homeowners-b67111fa"
+    },
+    {
+      "session_id": "b87c6b0e-a998-49d8-adee-51dacc582c93",
+      "product_name": "BugSnare",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://if-bugsnare-b87c6b0e-ideaforge-projects.vercel.app",
+      "started_at": "2026-06-09T16:27:00.093535+00:00",
+      "updated_at": "2026-06-10T02:25:05.386279+00:00",
+      "user_input": "Test API bug check"
+    },
+    {
+      "session_id": "52a67c3a-b808-4623-9e63-cabe7a434aea",
+      "product_name": "AskCRM",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://v0-askcrm-saas-app.vercel.app",
+      "started_at": "2026-06-09T14:59:03.460873+00:00",
+      "updated_at": "2026-06-09T15:08:09.789633+00:00",
+      "user_input": "build new crm system, that innovative, and i can have chat window to ask the crm questions. i want charge a subscription"
+    },
+    {
+      "session_id": "86da655a-f947-457e-865d-9393e50a295d",
+      "product_name": "Helix CRM",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://v0-helix-crm-landing-page-nj.vercel.app",
+      "started_at": "2026-06-09T07:08:56.864966+00:00",
+      "updated_at": "2026-06-09T08:25:26.940802+00:00",
+      "user_input": "can we build a crm that is ai driven"
+    },
+    {
+      "session_id": "30301ad5-30b7-42c1-8350-e7fa555548c0",
+      "product_name": "BloodLens",
+      "status": "complete",
+      "v0_status": "ready",
+      "final_url": "https://v0-bloodlens-saas-landing-page.vercel.app",
+      "started_at": "2026-06-09T06:29:22.842882+00:00",
+      "updated_at": "2026-06-09T06:36:46.491948+00:00",
+      "user_input": "https://www.ideabrowser.com/idea/ai-blood-test-interpreter-that-tracks-your-results-over-time-de1beee4"
+    },
+    {
+      "session_id": "007eb4b3-88ac-4092-9d84-b2984846d2d6",
+      "product_name": "TestProduct",
+      "status": "awaiting_approval",
+      "v0_status": "pending",
+      "final_url": null,
+      "started_at": "2026-06-09T06:24:36.955162+00:00",
+      "updated_at": "2026-06-09T06:28:28.105816+00:00",
+      "user_input": "test product"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "id": "lumina-ai",
+    "name": "Lumina AI & Spatial Computing",
+    "source": "aura.build",
+    "niches": [
+      "ai",
+      "saas",
+      "developer tools",
+      "automation",
+      "agent",
+      "ml",
+      "data"
+    ],
+    "mood": "futuristic, spatial, glass layers, cool gradients on dark",
+    "layout": "hero with product mockup, bento feature grid, social proof strip, pricing cards",
+    "typography": "geometric sans, tight tracking on headlines, generous whitespace",
+    "aura_slug": "lumina-spatial-74",
+    "reference_url": "https://www.aura.build/share/lumina-spatial-74"
+  },
+  {
+    "id": "verdant-saas",
+    "name": "Verdant SaaS Data Intelligence",
+    "source": "aura.build",
+    "niches": [
+      "analytics",
+      "dashboard",
+      "b2b",
+      "data",
+      "intelligence",
+      "reporting",
+      "ops"
+    ],
+    "mood": "clean, trustworthy, light-on-dark or crisp light sections",
+    "layout": "metric hero, 3-column features, integration logos, tiered pricing",
+    "typography": "neutral sans, numbers emphasized, subtle dividers",
+    "aura_slug": "verdant-saas-21",
+    "reference_url": "https://www.aura.build/share/verdant-saas-21"
+  },
+  {
+    "id": "nexura-agency",
+    "name": "Nexura Creative Agency",
+    "source": "aura.build",
+    "niches": [
+      "agency",
+      "creative",
+      "portfolio",
+      "brand",
+      "marketing",
+      "design"
+    ],
+    "mood": "bold editorial, high contrast, asymmetric hero",
+    "layout": "oversized headline, case-study cards, marquee text, minimal nav",
+    "typography": "display headline + light body, dramatic scale contrast",
+    "aura_slug": "nexura-creative",
+    "reference_url": "https://www.aura.build/share/nexura-creative"
+  },
+  {
+    "id": "cafe-nova",
+    "name": "Caf\u00e9 Nova Food & Beverage",
+    "source": "aura.build",
+    "niches": [
+      "food",
+      "restaurant",
+      "hospitality",
+      "consumer",
+      "lifestyle",
+      "retail"
+    ],
+    "mood": "warm, tactile, photography-forward",
+    "layout": "full-bleed imagery hero, menu/feature cards, location CTA",
+    "typography": "elegant serif accents with clean sans body",
+    "aura_slug": "specialty-coffee",
+    "reference_url": "https://www.aura.build/share/specialty-coffee"
+  },
+  {
+    "id": "sky-lounge",
+    "name": "Luxury Sky Lounge",
+    "source": "aura.build",
+    "niches": [
+      "luxury",
+      "premium",
+      "finance",
+      "concierge",
+      "membership",
+      "exclusive"
+    ],
+    "mood": "dark luxury, gold accents, cinematic photography",
+    "layout": "cinematic hero, amenity grid, membership pricing, reservation CTA",
+    "typography": "refined serif headlines, uppercase micro-labels",
+    "aura_slug": "altitude-mtl",
+    "reference_url": "https://www.aura.build/share/altitude-mtl"
+  },
+  {
+    "id": "nexus-cyber",
+    "name": "Nexus Cyber Defense Grid",
+    "source": "aura.build",
+    "niches": [
+      "security",
+      "cyber",
+      "infra",
+      "devops",
+      "compliance",
+      "enterprise"
+    ],
+    "mood": "technical, grid motifs, neon accents on black",
+    "layout": "threat-stats hero, capability matrix, trust badges, enterprise CTA",
+    "typography": "mono accents, sharp sans headlines",
+    "aura_slug": "nexus-cyber",
+    "reference_url": "https://www.aura.build/share/nexus-cyber"
+  },
+  {
+    "id": "cognix-training",
+    "name": "Cognix Brain Training Platform",
+    "source": "aura.build",
+    "niches": [
+      "education",
+      "health",
+      "wellness",
+      "productivity",
+      "learning",
+      "coaching"
+    ],
+    "mood": "friendly, optimistic, rounded shapes, soft color pops",
+    "layout": "benefit hero, step-by-step features, testimonial row, plan picker",
+    "typography": "rounded sans, approachable line lengths",
+    "aura_slug": "DW8Ve6aX",
+    "reference_url": "https://www.aura.build/share/DW8Ve6aX"
+  },
+  {
+    "id": "pixelcraft-events",
+    "name": "PixelCraft Professional DJ Services",
+    "source": "aura.build",
+    "niches": [
+      "events",
+      "entertainment",
+      "music",
+      "nightlife",
+      "media",
+      "creator"
+    ],
+    "mood": "energetic, neon, motion-friendly sections",
+    "layout": "video/image hero, service cards, gallery strip, book-now CTA",
+    "typography": "bold condensed headlines, high energy",
+    "aura_slug": "pixelcraft-dj",
+    "reference_url": "https://www.aura.build/share/pixelcraft-dj"
+  },
+  {
+    "id": "enterprise-infra",
+    "name": "Enterprise Infrastructure SaaS",
+    "source": "aura.build",
+    "niches": [
+      "infrastructure",
+      "platform",
+      "api",
+      "cloud",
+      "enterprise saas",
+      "devtools"
+    ],
+    "mood": "credible, structured, proof-heavy",
+    "layout": "problem/solution hero, architecture diagram section, logo wall, demo CTA",
+    "typography": "system sans, clear hierarchy, code snippets optional",
+    "aura_slug": "axion",
+    "reference_url": "https://www.aura.build/share/axion"
+  },
+  {
+    "id": "aura-assistant",
+    "name": "AURA AI Personal Assistant",
+    "source": "aura.build",
+    "niches": [
+      "assistant",
+      "personal ai",
+      "chat",
+      "copilot",
+      "workflow",
+      "productivity ai"
+    ],
+    "mood": "minimal AI product, conversational, soft glow accents",
+    "layout": "chat-style hero, use-case cards, pricing toggle, waitlist or checkout CTA",
+    "typography": "modern sans, conversational microcopy",
+    "aura_slug": "aura-ai-personal-52",
+    "reference_url": "https://www.aura.build/share/aura-ai-personal-52"
+  },
+  {
+    "id": "signal-saas",
+    "name": "SIGNAL SaaS Contact Page",
+    "source": "aura.build",
+    "niches": [
+      "contact",
+      "support",
+      "crm",
+      "sales",
+      "communication",
+      "b2b saas"
+    ],
+    "mood": "minimal, confident, strong typography on white or dark",
+    "layout": "split hero with form, trust metrics, FAQ accordion, footer CTA",
+    "typography": "bold sans headlines, compact form labels",
+    "aura_slug": "signal-saas-threejs",
+    "reference_url": "https://www.aura.build/share/signal-saas-threejs"
+  },
+  {
+    "id": "nexus-ai-consulting",
+    "name": "Nexus AI Consulting Landing Page",
+    "source": "aura.build",
+    "niches": [
+      "consulting",
+      "ai services",
+      "transformation",
+      "enterprise ai",
+      "strategy"
+    ],
+    "mood": "authoritative, dark premium, subtle gradient meshes",
+    "layout": "services grid, case studies, team credibility, book-a-call CTA",
+    "typography": "sharp sans + light subheads, numbered sections",
+    "aura_slug": "ai-consulting",
+    "reference_url": "https://www.aura.build/share/ai-consulting"
+  },
+  {
+    "id": "interior-studio",
+    "name": "AI Interior Design Studio",
+    "source": "aura.build",
+    "niches": [
+      "interior",
+      "design",
+      "home",
+      "architecture",
+      "real estate",
+      "visualization"
+    ],
+    "mood": "editorial, soft neutrals, large imagery",
+    "layout": "gallery hero, before/after cards, process steps, portfolio grid",
+    "typography": "serif display with refined sans body",
+    "aura_slug": "atelier-ai",
+    "reference_url": "https://www.aura.build/share/atelier-ai"
+  },
+  {
+    "id": "auralis-ecosystem",
+    "name": "Auralis Creative Ecosystem",
+    "source": "aura.build",
+    "niches": [
+      "ecosystem",
+      "community",
+      "creator tools",
+      "platform",
+      "marketplace"
+    ],
+    "mood": "vibrant, layered cards, playful gradients",
+    "layout": "ecosystem map hero, module cards, creator stats, join CTA",
+    "typography": "expressive sans, mixed weights",
+    "aura_slug": "auralis",
+    "reference_url": "https://www.aura.build/share/auralis"
+  },
+  {
+    "id": "seafood-luxury",
+    "name": "Luxury Seafood Restaurant",
+    "source": "aura.build",
+    "niches": [
+      "seafood",
+      "fine dining",
+      "restaurant",
+      "chef",
+      "culinary"
+    ],
+    "mood": "dark cinematic, macro food photography, gold accents",
+    "layout": "full-screen dish hero, tasting menu cards, reservation block",
+    "typography": "elegant serif, restrained copy",
+    "aura_slug": "seafood-artisan-28",
+    "reference_url": "https://www.aura.build/share/seafood-artisan-28"
+  },
+  {
+    "id": "altitude-mtl",
+    "name": "Altitude MTL Editorial",
+    "source": "aura.build",
+    "niches": [
+      "editorial",
+      "magazine",
+      "culture",
+      "travel",
+      "lifestyle media"
+    ],
+    "mood": "editorial grid, mixed photography, newspaper rhythm",
+    "layout": "magazine hero, article cards, newsletter signup, category nav",
+    "typography": "condensed headlines, serif pull quotes",
+    "aura_slug": "editorial-magazine-19",
+    "reference_url": "https://www.aura.build/share/editorial-magazine-19"
+  },
+  {
+    "id": "synthesis-catalyst",
+    "name": "Synthesis Catalyst Dark",
+    "source": "aura.build",
+    "niches": [
+      "biotech",
+      "research",
+      "science",
+      "frontier tech",
+      "deep tech"
+    ],
+    "mood": "high contrast black, oversized white type, scientific",
+    "layout": "statement hero, research pillars, data viz blocks, partner logos",
+    "typography": "ultra-bold display, monospace data labels",
+    "aura_slug": "canvas-visual",
+    "reference_url": "https://www.aura.build/share/canvas-visual"
+  },
+  {
+    "id": "legal-trust",
+    "name": "Legal & Compliance Trust Page",
+    "source": "aura.build",
+    "niches": [
+      "legal",
+      "compliance",
+      "regtech",
+      "finance",
+      "audit",
+      "governance"
+    ],
+    "mood": "conservative, trustworthy, navy and white",
+    "layout": "credibility hero, compliance checklist, testimonial quotes, demo request",
+    "typography": "traditional serif headlines, readable body",
+    "aura_slug": "legal-contract-78",
+    "reference_url": "https://www.aura.build/share/legal-contract-78"
+  },
+  {
+    "id": "fitness-pulse",
+    "name": "Fitness Pulse Mobile App",
+    "source": "aura.build",
+    "niches": [
+      "fitness",
+      "sport",
+      "mobile app",
+      "tracking",
+      "health app"
+    ],
+    "mood": "high energy, gradient accents, app mockup focus",
+    "layout": "phone mockup hero, feature carousel, social proof, app store CTAs",
+    "typography": "bold athletic sans, stat callouts",
+    "aura_slug": "mobile-app-home-16",
+    "reference_url": "https://www.aura.build/share/mobile-app-home-16"
+  },
+  {
+    "id": "nonprofit-impact",
+    "name": "Nonprofit Impact Campaign",
+    "source": "aura.build",
+    "niches": [
+      "nonprofit",
+      "charity",
+      "impact",
+      "social good",
+      "fundraising"
+    ],
+    "mood": "human, warm photography, hopeful color palette",
+    "layout": "story hero, impact metrics, donation tiers, volunteer CTA",
+    "typography": "friendly sans, emotional headlines",
+    "aura_slug": "nonprofit-educationa-74",
+    "reference_url": "https://www.aura.build/share/nonprofit-educationa-74"
+  }
+]

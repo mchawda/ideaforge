@@ -1,0 +1,6 @@
+{
+  "name": "idea-forge",
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "installCommand": "bun install"
+}

@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.local
+apps/web/.env.local
+apps/web/.next
+.env.*.local
+credentials.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env.bak
+.cdk.staging/
+cdk.out/
+
+# Node / Vercel
+node_modules/
+.vercel/
+
+# Session persistence
+data/
+
+# OS
+.DS_Store

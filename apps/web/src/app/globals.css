@@ -1,0 +1,165 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --color-forge: var(--color-forge);
+  --color-forge-light: var(--color-forge-light);
+  --color-forge-dim: var(--color-forge-dim);
+  --color-idea: var(--color-idea);
+  --color-idea-dim: var(--color-idea-dim);
+  --color-live: var(--color-live);
+  --color-live-dim: var(--color-live-dim);
+  --color-elevated: var(--bg-elevated);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 12px;
+  --radius-3xl: 12px;
+  --radius-4xl: 9999px;
+}
+
+:root {
+  --color-forge: #f97316;
+  --color-forge-light: #fb923c;
+  --color-forge-dim: #3d2800;
+  --color-idea: #a78bfa;
+  --color-idea-dim: #2d1f4e;
+  --color-live: #2dd4bf;
+  --color-live-dim: #0d4a3a;
+  --bg-base: #0a0a0f;
+  --bg-surface: #111117;
+  --bg-elevated: #1a1a28;
+  --bg-border: #2d2d3a;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+
+  --background: var(--bg-base);
+  --foreground: var(--text-primary);
+  --card: var(--bg-surface);
+  --card-foreground: var(--text-primary);
+  --popover: var(--bg-elevated);
+  --popover-foreground: var(--text-primary);
+  --primary: var(--color-forge);
+  --primary-foreground: #ffffff;
+  --secondary: var(--bg-elevated);
+  --secondary-foreground: var(--text-secondary);
+  --muted: var(--bg-elevated);
+  --muted-foreground: var(--text-secondary);
+  --accent: var(--bg-elevated);
+  --accent-foreground: var(--text-primary);
+  --destructive: #f87171;
+  --border: var(--bg-border);
+  --input: var(--bg-elevated);
+  --ring: var(--color-forge);
+  --chart-1: var(--color-forge);
+  --chart-2: var(--color-idea);
+  --chart-3: var(--color-live);
+  --chart-4: var(--text-secondary);
+  --chart-5: var(--text-muted);
+  --radius: 8px;
+  --sidebar: var(--bg-surface);
+  --sidebar-foreground: var(--text-primary);
+  --sidebar-primary: var(--color-forge);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: var(--bg-elevated);
+  --sidebar-accent-foreground: var(--text-primary);
+  --sidebar-border: var(--bg-border);
+  --sidebar-ring: var(--color-forge);
+}
+
+@keyframes forge-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans antialiased;
+  }
+
+  body {
+    @apply bg-background text-[15px] leading-[1.6] text-foreground;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1.2;
+    font-weight: 500;
+  }
+}
+
+@layer utilities {
+  .animate-forge-pulse {
+    animation: forge-pulse 1s infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-forge-pulse {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
+  .border-hairline {
+    border-width: 0.5px;
+  }
+
+  .bg-forge-grid {
+    background-image:
+      linear-gradient(to right, rgb(45 45 58 / 0.35) 0.5px, transparent 0.5px),
+      linear-gradient(to bottom, rgb(45 45 58 / 0.35) 0.5px, transparent 0.5px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(circle at 50% 0%, black, transparent 78%);
+  }
+}

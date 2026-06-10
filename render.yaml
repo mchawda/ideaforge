@@ -1,0 +1,16 @@
+# Deploy IdeaForge API: connect repo at render.com → New Blueprint
+services:
+  - type: web
+    name: ideaforge-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: PYTHONPATH=. uvicorn orchestrator.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12"
+      - key: WEB_ORIGIN
+        value: https://idea-forge-eta-six.vercel.app
+      - key: APP_ENV
+        value: production

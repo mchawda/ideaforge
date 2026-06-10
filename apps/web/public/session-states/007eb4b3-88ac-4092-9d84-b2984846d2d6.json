@@ -1,0 +1,137 @@
+{
+  "session_id": "007eb4b3-88ac-4092-9d84-b2984846d2d6",
+  "user_input": "test product",
+  "input_mode": "idea",
+  "ideabrowser_url": "",
+  "status": "awaiting_approval",
+  "current_step": "Waiting for your approval",
+  "started_at": "2026-06-09T06:24:36.955162+00:00",
+  "last_heartbeat": "2026-06-09T06:24:36.955327+00:00",
+  "progress_log": [],
+  "audit_log": [
+    {
+      "agent": "research",
+      "decision": "Completed parallel Exa research for test product",
+      "rationale": "Collected competitors, pain points, and demand signals concurrently.",
+      "sources": [
+        "https://gitnux.org/best/product-testing-software/",
+        "https://propicked.com/features/testing",
+        "https://qaskills.sh/blog/testim-vs-mabl-vs-functionize-comparison"
+      ],
+      "timestamp": "2026-06-09T06:28:09.818175+00:00"
+    },
+    {
+      "agent": "strategy",
+      "decision": "Proposed product: TestProduct",
+      "rationale": "The competitive landscape (Testim, Mabl, Functionize) shows strong demand for AI-driven test automation, but existing tools are enterprise-heavy and expensive, leaving a gap for startups and SMBs. Demand signals from Hacker News and Product Hunt confirm appetite for browser automation-as-code (Intuned YC S22) and AI-powered API testing (TestMagic claiming 90% time savings). Pain point research reveals that product teams struggle to connect customer feedback (especially from communities like Reddit) to their testing and validation workflows. TestProduct differentiates by combining traditional QA automation with community-driven pain point monitoring\u2014letting teams not only test that their product works, but validate that they're building the right things. The freemium model lowers adoption barriers for resource-constrained startups, while usage-based tier progression captures value as teams scale. Pricing is positioned 40-60% below enterprise competitors to win the underserved SMB segment and build bottom-up adoption.",
+      "sources": [],
+      "timestamp": "2026-06-09T06:28:26.567865+00:00"
+    }
+  ],
+  "retry_count": 0,
+  "time_estimate": {
+    "complexity": "complex",
+    "ui_scope": "app_shell",
+    "total_minutes": 15.4,
+    "phases": {
+      "approval": {
+        "minutes": 0.5,
+        "label": "Your review"
+      },
+      "deploy": {
+        "minutes": 0.5,
+        "label": "Stripe + AWS (parallel)"
+      },
+      "v0": {
+        "minutes": 14.4,
+        "label": "v0 UI in background"
+      }
+    },
+    "summary": "After you approve: ~15 min total \u2014 Stripe + AWS in ~30s, v0 UI continues in background (complex build).",
+    "rationale": "8 interconnected features spanning AI generation, browser automation, API testing, external integrations, and self-healing logic require substantial backend infrastructure, multiple specialized modules, and sophisticated state management across testing workflows.",
+    "models": {
+      "strategy": "anthropic/claude-opus-4.8",
+      "builder": "openai/gpt-5.5"
+    },
+    "fast_mode": false
+  },
+  "complexity": "complex",
+  "v0_status": "pending",
+  "error": "",
+  "product_name": "TestProduct",
+  "niche": "AI-powered product testing and QA automation for startups and SMBs",
+  "icp": "Early-to-mid stage startup founders, product managers, and QA engineers at companies with 5-100 employees who lack dedicated QA teams and need to ship reliable software faster without manual testing overhead.",
+  "features": [
+    "AI-generated test suites from natural language product descriptions",
+    "No-code browser automation for end-to-end testing workflows",
+    "Automated API test generation and regression detection",
+    "Reddit and community-driven pain point monitoring to validate product changes before release",
+    "Visual diff and screenshot comparison for UI regression testing",
+    "CI/CD pipeline integrations (GitHub Actions, GitLab CI, CircleCI)",
+    "Slack/Discord alerts for test failures with AI-suggested root causes",
+    "Self-healing test selectors that adapt to UI changes automatically"
+  ],
+  "pricing_model": "freemium",
+  "price_points": [
+    {
+      "name": "Starter",
+      "price": 0,
+      "details": "Up to 100 test runs/month, 1 project, community support"
+    },
+    {
+      "name": "Pro",
+      "price": 39,
+      "details": "Unlimited test runs, 10 projects, CI/CD integrations, AI root cause analysis"
+    },
+    {
+      "name": "Team",
+      "price": 99,
+      "details": "Unlimited projects, 10 seats, priority support, pain point monitoring dashboard"
+    },
+    {
+      "name": "Enterprise",
+      "price": 299,
+      "details": "Custom seats, SSO, SLA, dedicated onboarding, custom integrations"
+    }
+  ],
+  "strategy_rationale": "The competitive landscape (Testim, Mabl, Functionize) shows strong demand for AI-driven test automation, but existing tools are enterprise-heavy and expensive, leaving a gap for startups and SMBs. Demand signals from Hacker News and Product Hunt confirm appetite for browser automation-as-code (Intuned YC S22) and AI-powered API testing (TestMagic claiming 90% time savings). Pain point research reveals that product teams struggle to connect customer feedback (especially from communities like Reddit) to their testing and validation workflows. TestProduct differentiates by combining traditional QA automation with community-driven pain point monitoring\u2014letting teams not only test that their product works, but validate that they're building the right things. The freemium model lowers adoption barriers for resource-constrained startups, while usage-based tier progression captures value as teams scale. Pricing is positioned 40-60% below enterprise competitors to win the underserved SMB segment and build bottom-up adoption.",
+  "pending_approval": {
+    "product_name": "TestProduct",
+    "niche": "AI-powered product testing and QA automation for startups and SMBs",
+    "icp": "Early-to-mid stage startup founders, product managers, and QA engineers at companies with 5-100 employees who lack dedicated QA teams and need to ship reliable software faster without manual testing overhead.",
+    "features": [
+      "AI-generated test suites from natural language product descriptions",
+      "No-code browser automation for end-to-end testing workflows",
+      "Automated API test generation and regression detection",
+      "Reddit and community-driven pain point monitoring to validate product changes before release",
+      "Visual diff and screenshot comparison for UI regression testing",
+      "CI/CD pipeline integrations (GitHub Actions, GitLab CI, CircleCI)",
+      "Slack/Discord alerts for test failures with AI-suggested root causes",
+      "Self-healing test selectors that adapt to UI changes automatically"
+    ],
+    "price_points": [
+      {
+        "name": "Starter",
+        "price": 0,
+        "details": "Up to 100 test runs/month, 1 project, community support"
+      },
+      {
+        "name": "Pro",
+        "price": 39,
+        "details": "Unlimited test runs, 10 projects, CI/CD integrations, AI root cause analysis"
+      },
+      {
+        "name": "Team",
+        "price": 99,
+        "details": "Unlimited projects, 10 seats, priority support, pain point monitoring dashboard"
+      },
+      {
+        "name": "Enterprise",
+        "price": 299,
+        "details": "Custom seats, SSO, SLA, dedicated onboarding, custom integrations"
+      }
+    ],
+    "rationale": "The competitive landscape (Testim, Mabl, Functionize) shows strong demand for AI-driven test automation, but existing tools are enterprise-heavy and expensive, leaving a gap for startups and SMBs. Demand signals from Hacker News and Product Hunt confirm appetite for browser automation-as-code (Intuned YC S22) and AI-powered API testing (TestMagic claiming 90% time savings). Pain point research reveals that product teams struggle to connect customer feedback (especially from communities like Reddit) to their testing and validation workflows. TestProduct differentiates by combining traditional QA automation with community-driven pain point monitoring\u2014letting teams not only test that their product works, but validate that they're building the right things. The freemium model lowers adoption barriers for resource-constrained startups, while usage-based tier progression captures value as teams scale. Pricing is positioned 40-60% below enterprise competitors to win the underserved SMB segment and build bottom-up adoption."
+  },
+  "resumable": false
+}
